@@ -30,7 +30,6 @@ Los scripts/librerias utilizados son los siguientes (pueden encontrarse en la ca
 
 
 PASOS:
-
 1. Pese a saber que la tecnología AJAX es con fines asíncronos, se ha utilizado AJAX de manera síncrona ya que el enunciado no indica cómo aplicarlo.
 2. Se han utilizado llamadas ajax síncronamente unas dentro de otras (de manera secuencial) para realizar cada una de las peticiones JSON.
 3. Se ha creado un HashMap general cuyos keys values almacenarán el nombre de la categoría (key) y un hashmap de los datos (fecha y valores) (values).
