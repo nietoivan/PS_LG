@@ -166,7 +166,8 @@
 
                     },
                     tooltip: {
-                        pointFormat: '{series.name}: {point.y} (<b>{point.percentage:.1f}%</b>)'
+                        pointFormat: '{series.name}: {point.y} (<b>{point.percentage:.1f}%</b>)',
+                        valueDecimals:2,
                     },
                     plotOptions: {
                         pie: {
