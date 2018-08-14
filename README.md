@@ -19,7 +19,7 @@ MEJORAS:
 EJERCICIO 2
 ###########
 
-Ha sido un poco más dificultoso ya que no tengo conocimientos en Javascript. Se ha copiado de internet una integración de Hashmaps con Javascript para su funcionamiento y uso (260 líneas de código sin contabilizar con esta implementación de Hashmaps).
+Ha sido más dificultoso de realizar ya que no tengo conocimientos en Javascript, ni del uso de AJAX ni HighCharts. Se ha copiado de internet una integración de Hashmaps con Javascript para su utilización (260 líneas de código sin contabilizar con esta implementación de Hashmaps).
 
 PASOS:
 
