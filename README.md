@@ -3,8 +3,6 @@
 EJERCICIO 1
 ###########
 
-Se ha invertido un total de 2-3 horas para la realización de este ejercicio, gracias a previos conocimientos de python.
-
 PASOS:
 1. Se definen 3 funciones para calcular si la suma de los divisores de un número es Abundante, Defectivo o Perfecto.
 2. Se solicita al usuario una serie de números enteros para procesar, los cuales no podrán ser ni números negativos ni decimales, ya que no se han realizado prueba de errores para estos casos (tampoco texto).
@@ -21,7 +19,7 @@ MEJORAS:
 EJERCICIO 2
 ###########
 
-Se ha invertido aproximadamente 1 semana para la realización de este ejercicio debido al completo desconocimiento de Javascript, HighCharts, AJAX y JQuery. Se ha copiado de internet una integración de Hashmaps con Javascript para su funcionamiento y uso (260 líneas de código sin contabilizar con esta implementación de Hashmaps).
+Ha sido un poco más dificultoso ya que no tengo conocimientos en Javascript. Se ha copiado de internet una integración de Hashmaps con Javascript para su funcionamiento y uso (260 líneas de código sin contabilizar con esta implementación de Hashmaps).
 
 PASOS:
 
@@ -34,5 +32,3 @@ PASOS:
 MEJORAS: 
 Utilizar promesas o callbacks para trabajar con ajax asíncronamente.
 
-NOTAS: 
-Me gustaría que se valorase el esfuerzo realizado en este ejercicio ya que tenía un completo desconocimiento de javascript, highcharts, ajax y otras funcionalidades.
