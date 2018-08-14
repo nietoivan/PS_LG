@@ -22,7 +22,6 @@ EJERCICIO 2
 Ha sido más dificultoso de realizar ya que no tengo conocimientos en Javascript, ni en el uso de AJAX ni en HighCharts. Se ha copiado de internet una integración de Hashmaps con Javascript para su utilización (260 líneas de código sin contabilizar con esta implementación de Hashmaps).
 
 Los scripts/librerias utilizados son los siguientes (pueden encontrarse en la carpeta scripts):
-
   - jquery-3.3.1.js
   - highcharts.js
   - date.js
