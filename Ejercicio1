@@ -1,0 +1,58 @@
+
+import os
+
+def NumeroPerfecto(mitad, num):
+  suma = 0
+  for i in range(1,mitad):
+    if (num % i == 0):
+      suma += i
+  if num == suma:
+    return True
+  else:
+    return False
+
+def NumeroAbundante(mitad, num):
+  suma = 0
+  for i in range(1,mitad):
+    if (num % i == 0):
+      suma += i
+  if num < suma:
+    return True
+  else:
+    return False
+
+def NumeroDeficiente(mitad, num):
+  suma = 0
+  for i in range(1,mitad):
+    if (num % i == 0):
+      suma += i
+  if num > suma:
+    return True
+  else:
+    return False
+
+lista=[]
+valor=int(input("Ingresar valor (0 para finalizar):"))
+while valor!=0:
+    lista.append(valor)
+    valor=int(input("Ingresar valor (0 para finalizar):"))
+
+print(lista)
+
+for num in lista:
+    mitad = int(num/2)+1
+    if NumeroPerfecto(mitad, num):
+      print("%s es un numero perfecto" % num)
+#    else:
+#      print("%s NO es un numero perfecto" % num)
+    if NumeroAbundante(mitad, num):
+      print("%s es un numero abundante" % num)
+#    else:
+#      print("%s NO es un numero abundante" % num)
+    if NumeroDeficiente(mitad, num):
+      print("%s es un numero deficiente" % num)
+#    else:
+#      print("%s NO es un numero defectivo" % num)
+
+
+
