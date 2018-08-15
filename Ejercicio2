@@ -7,6 +7,7 @@
     <script src="scripts/highcharts.js"></script>
     <script src="scripts/date.js"></script>
     <script src="scripts/exporting.js"></script>
+    <script src="scripts/hashmaps.js"></script>
 </head>
 <body>
     <div id="piechart" width="300" height="150"></div>
